@@ -488,14 +488,20 @@ img {
 }
 
 .project-image {
-    height: 200px;
-
+    height: 220px;
     background: #0f172a;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
+
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .image-placeholder {
