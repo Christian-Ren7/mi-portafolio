@@ -3,12 +3,503 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+
+    <title>Christian Hawkins | Portafolio</title>
+
+    <meta name="description" content="Portafolio profesional de Renato Hawkins, estudiante de Ingeniería de Software con Inteligencia Artificial.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <h1>Hola, soy Renato</h1>
-    <p>Estudiante de Ingeniería de Software con Inteligencia Artificial.</p>
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                RH<span>.</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p class="hero-subtitle">
+                        Hola, soy
+                    </p>
+
+                    <h1>
+                        Renato <span>Hawkins</span>
+                    </h1>
+
+                    <h2>
+                        Estudiante de Ingeniería de Software con Inteligencia Artificial
+                    </h2>
+
+                    <p class="hero-description">
+                        Me interesa el desarrollo de software, el desarrollo web
+                        y la creación de soluciones tecnológicas.
+                        Actualmente busco oportunidades para seguir desarrollando
+                        mis conocimientos y adquirir experiencia profesional.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#proyectos" class="btn btn-primary">
+                            Ver mis proyectos
+                        </a>
+
+                        <a href="#contacto" class="btn btn-secondary">
+                            Contactarme
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-card">
+
+                    <div class="code-window">
+
+                        <div class="window-top">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <pre><code>
+<span class="code-purple">const</span> developer = {
+    nombre: <span class="code-green">"Renato"</span>,
+    carrera: <span class="code-green">"Software + IA"</span>,
+    ciclo: <span class="code-number">4</span>,
+    pasion: <span class="code-green">"Tecnología"</span>
+};
+                        </code></pre>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MI -->
+        <section class="section" id="sobre-mi">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>01.</span>
+                    <h2>Sobre mí</h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p>
+                            Soy estudiante de <strong>Ingeniería de Software con
+                            Inteligencia Artificial</strong> en SENATI.
+                        </p>
+
+                        <p>
+                            Durante mi formación he desarrollado conocimientos
+                            en programación, bases de datos y desarrollo web,
+                            trabajando con diferentes tecnologías y herramientas.
+                        </p>
+
+                        <p>
+                            Me considero una persona responsable, con interés
+                            por aprender nuevas tecnologías y mejorar continuamente
+                            mis habilidades como desarrollador.
+                        </p>
+
+                    </div>
+
+                    <div class="about-info">
+
+                        <div class="info-card">
+                            <span>🎓</span>
+                            <div>
+                                <strong>Formación</strong>
+                                <p>SENATI</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <span>💻</span>
+                            <div>
+                                <strong>Especialidad</strong>
+                                <p>Software + IA</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <span>📚</span>
+                            <div>
+                                <strong>Actualmente</strong>
+                                <p>4.º ciclo</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HABILIDADES -->
+        <section class="section section-dark" id="habilidades">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>02.</span>
+                    <h2>Habilidades</h2>
+                </div>
+
+                <p class="section-intro">
+                    Tecnologías y herramientas con las que he trabajado
+                    durante mi formación.
+                </p>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <div class="skill-icon">☕</div>
+                        <h3>Java</h3>
+                        <p>Programación y desarrollo de aplicaciones.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML</h3>
+                        <p>Estructuración de páginas web.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS</h3>
+                        <p>Diseño y estilos para interfaces web.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactividad y funcionalidades web.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🐘</div>
+                        <h3>PHP</h3>
+                        <p>Desarrollo web del lado del servidor.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🗄️</div>
+                        <h3>SQL / Oracle</h3>
+                        <p>Diseño y gestión de bases de datos.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🔧</div>
+                        <h3>Git & GitHub</h3>
+                        <p>Control de versiones y repositorios.</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🤖</div>
+                        <h3>Inteligencia Artificial</h3>
+                        <p>Formación y exploración de tecnologías de IA.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROYECTOS -->
+        <section class="section" id="proyectos">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>03.</span>
+                    <h2>Mis proyectos</h2>
+                </div>
+
+                <p class="section-intro">
+                    Algunos proyectos y trabajos realizados durante mi formación.
+                </p>
+
+                <div class="projects-grid">
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <span>🛒</span>
+                                <p>Imagen del proyecto</p>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                Desarrollo Web
+                            </span>
+
+                            <h3>VestuarioOnline</h3>
+
+                            <p>
+                                Proyecto de comercio electrónico desarrollado
+                                utilizando PHP, MySQL, HTML, CSS y JavaScript,
+                                incluyendo funcionalidades de carrito de compras.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                Ver proyecto →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <span>🗄️</span>
+                                <p>Imagen del proyecto</p>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                Bases de Datos
+                            </span>
+
+                            <h3>Sistema de Base de Datos</h3>
+
+                            <p>
+                                Diseño de una base de datos relacional utilizando
+                                Oracle, SQL y herramientas de modelado para
+                                administrar información de productos, clientes
+                                y ventas.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Oracle</span>
+                                <span>SQL</span>
+                                <span>Data Modeler</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                Ver proyecto →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+                            <div class="image-placeholder">
+                                <span>💻</span>
+                                <p>Imagen del proyecto</p>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                Programación
+                            </span>
+
+                            <h3>Aplicaciones en Java</h3>
+
+                            <p>
+                                Desarrollo de aplicaciones utilizando Java,
+                                aplicando programación orientada a objetos
+                                y componentes de interfaces gráficas.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Swing</span>
+                                <span>POO</span>
+                            </div>
+
+                            <a href="#" class="project-link">
+                                Ver proyecto →
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCACION -->
+        <section class="section section-dark" id="educacion">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>04.</span>
+                    <h2>Educación</h2>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div class="timeline-content">
+
+                            <span class="timeline-date">
+                                2025 — Actualidad
+                            </span>
+
+                            <h3>Ingeniería de Software con Inteligencia Artificial</h3>
+
+                            <h4>SENATI</h4>
+
+                            <p>
+                                Formación en programación, desarrollo de software,
+                                bases de datos, desarrollo web e inteligencia artificial.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section class="section contact-section" id="contacto">
+
+            <div class="container contact-container">
+
+                <div class="section-heading center">
+                    <span>05.</span>
+                    <h2>¿Trabajamos juntos?</h2>
+                </div>
+
+                <p>
+                    Actualmente estoy interesado en oportunidades de prácticas
+                    profesionales donde pueda aplicar mis conocimientos,
+                    aprender de nuevos desafíos y seguir creciendo como
+                    desarrollador.
+                </p>
+
+                <a
+                    href="mailto:renatohawkins11@gmail.com"
+                    class="btn btn-primary"
+                >
+                    Enviarme un correo
+                </a>
+
+                <div class="contact-links">
+
+                    <a href="mailto:renatohawkins11@gmail.com">
+                        ✉️ Email
+                    </a>
+
+                    <a href="#" target="_blank">
+                        💻 GitHub
+                    </a>
+
+                    <a href="#" target="_blank">
+                        💼 LinkedIn
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <p>
+                © <span id="year"></span> Renato Hawkins.
+                Todos los derechos reservados.
+            </p>
+
+            <p>
+                Diseñado y desarrollado por Renato.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
