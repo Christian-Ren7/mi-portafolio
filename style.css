@@ -827,3 +827,12 @@ img {
     }
 
 }
+
+.project-no-image {
+    min-height: 420px;
+}
+
+.project-icon {
+    font-size: 3rem;
+    margin: 25px 0 10px;
+}
